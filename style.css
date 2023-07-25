@@ -1,0 +1,88 @@
+*{
+    margin: 2px;
+    box-sizing: border-box;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+body{
+    background: rgba(128, 128, 128, 0.185);
+
+}
+
+@media screen and (min-width: 1000px) {
+    img{
+        width: 200px;
+    }
+}
+
+
+
+.container{
+    display: flex;
+    width: 100%;
+}
+.profile-pic{
+    width: 30%;
+    height: 100%;
+}
+.profile-pic img{
+    height:100%;
+}
+.generla-info{
+    width: 70%;
+}
+.contacts-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.contacts{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.contacts a{
+    text-decoration: none;
+}
+.contacts p{
+    padding:0;
+    margin: 0;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 20px;
+    margin: 20px 0 ;
+}
+.section p{
+    width: 20%;
+    font-size: 12px;
+    margin: auto;
+    color: #0000ad;
+}
+hr{
+    height: 2px;
+    background-color: #6c7e7e;
+    width: 80%;
+}
+.field h3{
+    font-size: 16px;
+    color: #0000ad;
+}
+.field p{
+    font-size: 12px;
+}
+.studay{
+    display: flex;
+}
+.studay p{
+    font-size: 12px;
+}
